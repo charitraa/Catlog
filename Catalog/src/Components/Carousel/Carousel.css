@@ -1,0 +1,45 @@
+.carousel {
+  background: rgba(249, 249, 255, 1);
+  padding: 40px 0; /* Adjusted for better spacing */
+}
+
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-container img {
+  height: 55px;
+  width: 150px;
+  object-fit: contain; /* Ensures the image fits within the container without distortion */
+}
+
+.react-multi-carousel-list {
+  position: relative; /* Adjusted from static to relative to maintain structure */
+}
+
+.carousel-item-padding-40-px {
+  padding: 0 20px; /* Adjust the padding as needed */
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 1024px) {
+  .carousel-container img {
+    height: 50px;
+    width: 130px;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-container img {
+    height: 45px;
+    width: 110px;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-container img {
+    height: 40px;
+    width: 90px;
+  }
+}
